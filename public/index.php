@@ -3,6 +3,11 @@
 use Illuminate\Contracts\Http\Kernel;
 use Illuminate\Http\Request;
 
+// show all php errors
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+
 define('LARAVEL_START', microtime(true));
 
 /*
